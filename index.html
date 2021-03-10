@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/custom.css">
+</head>
+<body>
+    <section class="container">
+        <div class="row text-center">
+            <div class="col-md-4"></div>
+
+            
+            <div class="col-md-4">
+                <h1>Calculator</h1>
+                <div class="calculatorBox">
+                    <form>
+                        <p>Enter only numeric values below:</p>       
+                        <div class="form-row form-group">
+                            <div class="col-md-6">
+                                <input type="number" class="form-control" value="0" id="txtNum1">
+                            </div>
+                            <div class="col-md-6">
+                                <input type="number" class="form-control" value="0" id="txtNum2">
+                            </div>
+                        </div>
+
+                        <div class="form-row form-group">
+                            <div class="col-md-12">
+                                <input type="text" class="form-control" id="txtResult" readonly placeholder="Result will show here">
+                            </div>
+                        </div>
+        
+                        <div class="form-row form-group">
+                            <div class="col-md-6">
+                                <input type="button" value="+" class="btn btn-primary btn-block form-control" id="btnSum">
+                            </div>
+                        
+                            <div class="col-md-6">
+                                <input type="button" value="-" class="btn btn-primary btn-block form-control" id="btnMinus">
+                            </div>
+                        </div>
+        
+                        <div class="form-row form-group">
+                            <div class="col-md-6">
+                                <input type="button" value="*" class="btn btn-primary btn-block form-control" id="btnMultiply">
+                            </div>
+                            <div class="col-md-6">
+                                <input type="button" value="/" class="btn btn-primary btn-block form-control" id="btnDivide">
+                            </div>
+                        </div>
+        
+                        <div class="form-row form-group">
+                            <div class="col-md-12">
+                                <input type="button" value="%" class="btn btn-primary btn-block form-control" id="btnModulo">
+                            </div>
+                        </div>
+                    </form>
+                </div>
+
+            </div>
+
+            <div class="col-md-4"></div>
+        </div>
+    </section>
+
+    <script src="js/calculator.js"></script>
+</body>
+</html>
