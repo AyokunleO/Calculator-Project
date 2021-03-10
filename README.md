@@ -1,6 +1,5 @@
 # Calculator-Project
 
-Lab Task – Calculator
 Your task is to add interactivity to the attached Calculator UI.
 User Story
 ·        The user will enter numeric values in the input elements of type number.
